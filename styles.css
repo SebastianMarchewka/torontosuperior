@@ -682,7 +682,7 @@ h3 {
   color: rgba(238, 242, 255, 0.85);
 }
 
-main {
+.hero {
   padding-top: 70px; /* fallback */
   padding-top: var(--header-height);
 }
