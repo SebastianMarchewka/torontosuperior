@@ -614,12 +614,9 @@ h3 {
 
 .gallery img {
   width: 100%;
-  border-radius: 16px;
+  aspect-ratio: 4 / 3; /* or 1/1 or 16/9 depending on look */
   object-fit: cover;
-}
-
-#interior2 {
-  height: 290px;
+  border-radius: 16px;
 }
 
 @media (min-width: 680px) {
@@ -646,3 +643,33 @@ h3 {
   font-weight: 700;
 }
 
+/* Mobile header improvements */
+@media (max-width: 680px) {
+
+  .header-inner {
+    padding: 10px 0;
+  }
+
+  .brand-name {
+    font-size: 13px;
+  }
+
+  .brand-sub {
+    font-size: 11px;
+  }
+
+  .phone-link {
+    padding: 8px 10px;
+    border-radius: 12px;
+  }
+
+  .phone-link-label {
+    display: none; /* removes "Call now" text for cleaner look */
+  }
+
+  .phone-link-number {
+    font-size: 13px;
+    font-weight: 900;
+  }
+
+}
