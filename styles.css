@@ -681,3 +681,7 @@ h3 {
   font-size: 14px;
   color: rgba(238, 242, 255, 0.85);
 }
+
+main {
+  padding-top: var(--header-height);
+}
