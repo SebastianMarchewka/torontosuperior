@@ -683,5 +683,6 @@ h3 {
 }
 
 main {
+  padding-top: 70px; /* fallback */
   padding-top: var(--header-height);
 }
