@@ -75,8 +75,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 14px;
-  padding: 12px 0;
+  gap: 12px;
+  padding: 0px 0; /* reduced from 12px */
 }
 
 .brand {
@@ -671,5 +671,13 @@ h3 {
     font-size: 13px;
     font-weight: 900;
   }
+  
 
+}
+
+.hours-block {
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
+  color: rgba(238, 242, 255, 0.85);
 }
